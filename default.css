@@ -8,6 +8,16 @@ body{
     padding-bottom: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    --bs-heading-color: black;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+
+.bx, .bxs{
+    font-size: 2rem;
 }
 
 .center-all {
@@ -79,7 +89,8 @@ body{
     backdrop-filter: blur(6px);
     border: 0;
     border-radius: 1rem;
-    min-height: 50px;
+    width:175px;
+    height: 115px;
     /*margin: 0.75rem;*/
     padding: .5rem;
 }
@@ -111,4 +122,32 @@ body{
 
 .bold{
     font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:unset;
+}
+
+.foto-area{
+    background-image: url("tire-path.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ozka-logo{
+    width: 60%;
+    margin-top:-10px;
+    margin-bottom: 15px;
+}
+
+.button-box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:50vh;
 }
